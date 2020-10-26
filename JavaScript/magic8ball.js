@@ -1,16 +1,16 @@
-let userName = "Jane";
-userName = userName
+
+
+let userName = 'Jane'
+userName
   ? console.log(`Hello, ${userName}!`)
   : console.log("Hello!");
 
-console.log(`${userName}`); //why does the variable become undefined here?
-
 const userQuestion = "Will the crow bro bring me a gift today?";
-console.log(`${userName} asked ${userQuestion}`);
+console.log(`${userName} asked "${userQuestion}"`);
 
 const randomNumber = Math.floor(Math.random() * 8);
 
-console.log(randomNumber);
+// console.log(randomNumber);
 
 let eightBall = "";
 
@@ -51,13 +51,4 @@ switch (randomNumber) {
     eightBall = "";
 }
 
-console.log(`The Magic 8 Ball answered: ${eightBall}`);
-
-// 'It is certain'
-// 'It is decidedly so'
-// 'Reply hazy try again'
-// 'Cannot predict now'
-// 'Do not count on it'
-// 'My sources say no'
-// 'Outlook not so good'
-// 'Signs point to yes'
+console.log(`The Magic 8 Ball answered: "${eightBall}"`);
