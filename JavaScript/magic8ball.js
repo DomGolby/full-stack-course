@@ -1,11 +1,10 @@
-
-
+// Magic 8 Ball project
 let userName = 'Jane'
 userName
   ? console.log(`Hello, ${userName}!`)
   : console.log("Hello!");
 
-const userQuestion = "Will the crow bro bring me a gift today?";
+const userQuestion = "Will the Crow bro bring me a gift today?";
 console.log(`${userName} asked "${userQuestion}"`);
 
 const randomNumber = Math.floor(Math.random() * 8);
