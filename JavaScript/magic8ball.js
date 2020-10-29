@@ -1,5 +1,5 @@
 // Magic 8 Ball project
-let userName = 'Jane'
+let userName = 'Dom'
 userName
   ? console.log(`Hello, ${userName}!`)
   : console.log("Hello!");
